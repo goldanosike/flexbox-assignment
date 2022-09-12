@@ -95,3 +95,25 @@ button{
     border: 2px solid white;
     transition: 1s ease;
 } 
+@media (max-width:768px){
+    main{
+        flex-direction: column;
+        margin-top: 20px;
+        height: auto;
+    }   
+    div{
+        width: 80vw;
+        height: auto;
+    }
+    .sedans{
+        border-radius: 10px 1opx 0 0;
+    } 
+    .luxury{
+        border-radius: 0 0 10px 10px; 
+    }
+}
+@media (max-width:400px;){
+    div{
+        height: auto;     
+    }       
+}
